@@ -107,6 +107,13 @@ function ProjectVisual({ accent }) {
           <rect className="truck" x="0" y="0" width="22" height="14" rx="3" />
         </svg>
       )}
+      {accent === 'chat' && (
+        <div className="chatviz">
+          <span className="bub bot">Hello! How can I help?</span>
+          <span className="bub me">Ku është porosia ime?</span>
+          <span className="bub bot">Porosia LB-1002 është në përgatitje.</span>
+        </div>
+      )}
       {accent === 'web' && (
         <div className="devices">
           <div className="laptop"><i /><i /><i /><b /><b /><b /></div>
@@ -154,6 +161,12 @@ function ProjectSlider() {
               <ul className="tags">
                 {p.tech.map((t) => <li key={t}>{t}</li>)}
               </ul>
+              {(p.demo || p.code) && (
+                <p className="proj-links">
+                  {p.demo && <a href={p.demo} target="_blank" rel="noreferrer">Live demo ↗</a>}
+                  {p.code && <a href={p.code} target="_blank" rel="noreferrer">Source code ↗</a>}
+                </p>
+              )}
             </div>
           </article>
         ))}

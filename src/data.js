@@ -21,6 +21,15 @@ export const about = [
 
 export const projects = [
   {
+    title: 'Multilingual customer support chatbot',
+    text: 'A support assistant for a demo bike shop that answers customers in English, French and Albanian: opening hours, delivery, returns, repairs, payment and order tracking. It tolerates typos and hands the conversation to a human when needed.',
+    tech: ['JavaScript (ES modules)', 'HTML', 'CSS', 'Automated tests', 'GitHub Pages'],
+    role: 'Design of the conversation flows, language detection and intent matching logic, the three translations, tests and deployment.',
+    accent: 'chat',
+    demo: 'https://eliotilazi.github.io/support-chatbot/',
+    code: 'https://github.com/eliotilazi/support-chatbot',
+  },
+  {
     title: '3D custom furniture configurator',
     text: 'An online tool that lets a client draw their room (dimensions, flooring, furniture) and see it in 3D directly in the browser.',
     tech: ['HTML', 'CSS', 'JavaScript', 'three.js', 'Cloudflare Pages'],

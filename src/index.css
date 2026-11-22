@@ -155,6 +155,14 @@ main { max-width: 1100px; margin: 0 auto; padding: 0 20px; }
 .visual { display: grid; place-items: center; position: relative; overflow: hidden; min-height: 260px; }
 .visual.wood { background: linear-gradient(135deg, #f4c58f, #b9763d); }
 .visual.route { background: linear-gradient(135deg, #3fd0b0, #1f6f8b); }
+.visual.chat { background: linear-gradient(135deg, #2fbf86, #146c4a); }
+.chatviz { display: flex; flex-direction: column; gap: 10px; width: 80%; }
+.bub { padding: 8px 14px; border-radius: 14px; font-size: .85rem; max-width: 80%; box-shadow: 0 6px 16px rgba(0,0,0,.12); }
+.bub.bot { background: #fff; color: #13201a; align-self: flex-start; border-bottom-left-radius: 4px; }
+.bub.me { background: #0f4d35; color: #fff; align-self: flex-end; border-bottom-right-radius: 4px; }
+.proj-links { display: flex; gap: 16px; flex-wrap: wrap; margin: 14px 0 0; }
+.proj-links a { color: var(--accent); font-weight: 600; text-decoration: none; }
+.proj-links a:hover { text-decoration: underline; }
 .visual.web { background: linear-gradient(135deg, #8a74ff, #3b2b9c); }
 .slide-body { padding: 40px 44px 70px; display: flex; flex-direction: column; justify-content: center; }
 .slide-num { color: var(--accent); font-weight: 700; font-size: 0.85rem; letter-spacing: 0.1em; }
