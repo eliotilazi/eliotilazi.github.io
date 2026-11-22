@@ -115,6 +115,16 @@ function ProjectVisual({ accent }) {
           <span className="ql tot"><i>Total</i><b>CHF 6'264</b></span>
         </div>
       )}
+      {accent === 'shop' && (
+        <div className="quoteviz shopviz">
+          <span className="rv-head"><b>Your cart</b><i>3 items</i></span>
+          <span className="ql"><i>Colombia Huila · 1 kg</i><b>CHF 57.50</b></span>
+          <span className="ql"><i>Hand Grinder</i><b>CHF 89.00</b></span>
+          <span className="ql"><i>Delivery</i><b>Free</b></span>
+          <span className="ql tot"><i>Total</i><b>CHF 146.50</b></span>
+          <span className="rv-btn">Go to checkout</span>
+        </div>
+      )}
       {accent === 'rental' && (
         <div className="quoteviz rentviz">
           <span className="rv-head"><b>12 m³ van</b><i>2 days</i></span>

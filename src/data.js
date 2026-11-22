@@ -21,6 +21,15 @@ export const about = [
 
 export const projects = [
   {
+    title: 'Online coffee shop in React',
+    text: 'A complete online shop for a demo coffee roastery: catalogue with search and filters, product pages with size and grind options, a cart that remembers its content and respects the stock, and a checkout with validation. Prices follow Swiss rules, with two VAT rates and free delivery from CHF 50.',
+    tech: ['React 18', 'Vite', 'Context + useReducer', 'Automated tests', 'GitHub Actions', 'GitHub Pages'],
+    role: 'Design, React components and state management, shop rules (stock, promo code, VAT, delivery), tests and automatic deployment.',
+    accent: 'shop',
+    demo: 'https://eliotilazi.github.io/coffee-shop/',
+    code: 'https://github.com/eliotilazi/coffee-shop',
+  },
+  {
     title: 'Van rental website with online booking',
     text: 'A complete 7-page website for a demo van rental company: fleet with filters, prices, FAQ with search, contact form and a 3-step booking. The price updates live with the real rules of the trade: half days, kilometres included, long rental discounts, insurance, opening hours and availability. In French, Albanian and English.',
     tech: ['JavaScript (ES modules)', 'HTML', 'CSS', 'Form validation', 'Automated tests', 'GitHub Pages'],

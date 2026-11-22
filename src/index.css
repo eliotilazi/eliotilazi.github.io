@@ -161,6 +161,8 @@ main { max-width: 1100px; margin: 0 auto; padding: 0 20px; }
 .ql i { font-style: normal; color: #74675b; }
 .ql.tot { border: 0; font-weight: 700; font-size: .95rem; }
 .ql.tot i { color: #2a211a; }
+.visual.shop { background: linear-gradient(135deg, #8a5a3c, #3d2a1e); }
+.shopviz { border-top: 6px solid #c4552f; }
 .visual.rental { background: linear-gradient(135deg, #1b6f82, #0e4f5e); }
 .rentviz { border-top: 6px solid #e8731c; }
 .rv-head { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 4px; }
