@@ -30,6 +30,15 @@ export const projects = [
     code: 'https://github.com/eliotilazi/coffee-shop',
   },
   {
+    title: 'Live exchange rates in React',
+    text: 'A dashboard that loads live data from the European Central Bank: a currency converter, a chart for any pair over 1 month to 5 years, and a watchlist with daily and monthly changes. Made for Swiss businesses that invoice or buy in euros and dollars.',
+    tech: ['React 18', 'REST API (fetch)', 'Custom hooks', 'SVG charts', 'Automated tests', 'GitHub Actions'],
+    role: 'Design, API integration with loading and error states, a reusable data hook with request cancelling, the chart drawn without a library, tests and automatic deployment.',
+    accent: 'fx',
+    demo: 'https://eliotilazi.github.io/exchange-rates/',
+    code: 'https://github.com/eliotilazi/exchange-rates',
+  },
+  {
     title: 'Van rental website with online booking',
     text: 'A complete 7-page website for a demo van rental company: fleet with filters, prices, FAQ with search, contact form and a 3-step booking. The price updates live with the real rules of the trade: half days, kilometres included, long rental discounts, insurance, opening hours and availability. In French, Albanian and English.',
     tech: ['JavaScript (ES modules)', 'HTML', 'CSS', 'Form validation', 'Automated tests', 'GitHub Pages'],

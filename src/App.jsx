@@ -125,6 +125,13 @@ function ProjectVisual({ accent }) {
           <span className="rv-btn">Go to checkout</span>
         </div>
       )}
+      {accent === 'fx' && (
+        <div className="quoteviz fxviz">
+          <span className="rv-head"><b>EUR → CHF</b><i>3 months</i></span>
+          <svg viewBox="0 0 200 70" className="fxline"><path d="M2 40 L20 34 L38 38 L56 22 L74 26 L92 14 L110 30 L128 44 L146 40 L164 56 L182 46 L198 50" /></svg>
+          <span className="ql tot"><i>1000 EUR</i><b>922.34 CHF</b></span>
+        </div>
+      )}
       {accent === 'rental' && (
         <div className="quoteviz rentviz">
           <span className="rv-head"><b>12 m³ van</b><i>2 days</i></span>
