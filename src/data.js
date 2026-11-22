@@ -14,7 +14,7 @@ export const profile = {
 }
 
 export const about = [
-  'Five years as managing partner in a transport company taught me how a business really works: client relations, team management, invoicing and organisation.',
+  'Nine years as managing partner in a transport company taught me how a business really works: client relations, team management, invoicing and organisation.',
   'Today I use that experience to build web tools that solve concrete problems: a 3D configurator for custom furniture, a route planner for a transport company and websites for independent professionals.',
   'I am currently deepening JavaScript, React, Python and SQL, and I am open to remote work.',
 ]
@@ -46,7 +46,5 @@ export const projects = [
 export const skills = ['HTML5', 'CSS3', 'JavaScript', 'React', 'three.js', 'Python', 'SQL', 'PostgreSQL', 'Git & GitHub', 'Cloudflare']
 
 export const education = [
-  { school: 'HES-SO University of Applied Sciences and Arts Western Switzerland', years: '2021 – 2024' },
-  { school: 'University of Geneva', years: '2020 – 2021' },
-  { school: 'Gymnase de Nyon (upper secondary school)', years: '2017 – 2020' },
+  { school: 'Compulsory schooling, Établissement secondaire de Nyon', years: '2004 – 2017' },
 ]
