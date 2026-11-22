@@ -115,11 +115,14 @@ function ProjectVisual({ accent }) {
           <span className="ql tot"><i>Total</i><b>CHF 6'264</b></span>
         </div>
       )}
-      {accent === 'chat' && (
-        <div className="chatviz">
-          <span className="bub bot">Hello! How can I help?</span>
-          <span className="bub me">Ku është porosia ime?</span>
-          <span className="bub bot">Porosia LB-1002 është në përgatitje.</span>
+      {accent === 'rental' && (
+        <div className="quoteviz rentviz">
+          <span className="rv-head"><b>12 m³ van</b><i>2 days</i></span>
+          <span className="ql"><i>Rental</i><b>CHF 278</b></span>
+          <span className="ql"><i>Unlimited km</i><b>CHF 50</b></span>
+          <span className="ql"><i>Insurance Plus</i><b>CHF 38</b></span>
+          <span className="ql tot"><i>Total incl. VAT</i><b>CHF 366</b></span>
+          <span className="rv-btn">Confirm booking</span>
         </div>
       )}
       {accent === 'web' && (

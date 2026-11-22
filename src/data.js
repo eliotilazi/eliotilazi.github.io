@@ -21,6 +21,15 @@ export const about = [
 
 export const projects = [
   {
+    title: 'Van rental website with online booking',
+    text: 'A complete 7-page website for a demo van rental company: fleet with filters, prices, FAQ with search, contact form and a 3-step booking. The price updates live with the real rules of the trade: half days, kilometres included, long rental discounts, insurance, opening hours and availability. In French, Albanian and English.',
+    tech: ['JavaScript (ES modules)', 'HTML', 'CSS', 'Form validation', 'Automated tests', 'GitHub Pages'],
+    role: 'Business rules based on my nine years in transport, the booking logic and pricing engine, the design, the three translations, tests and deployment.',
+    accent: 'rental',
+    demo: 'https://eliotilazi.github.io/van-rental/',
+    code: 'https://github.com/eliotilazi/van-rental',
+  },
+  {
     title: 'Quote calculator for custom furniture',
     text: 'A live quote tool for a demo furniture workshop: kitchens, wardrobes, bedrooms, built-in units and terraces. The customer enters the dimensions and the finish level and gets an itemised estimate with installation, delivery and Swiss VAT, in French, Albanian or English.',
     tech: ['JavaScript (ES modules)', 'HTML', 'CSS', 'Automated tests', 'GitHub Pages'],
@@ -28,15 +37,6 @@ export const projects = [
     accent: 'quote',
     demo: 'https://eliotilazi.github.io/quote-calculator/',
     code: 'https://github.com/eliotilazi/quote-calculator',
-  },
-  {
-    title: 'Multilingual customer support chatbot',
-    text: 'A support assistant for a demo bike shop that answers customers in English, French and Albanian: opening hours, delivery, returns, repairs, payment and order tracking. It tolerates typos and hands the conversation to a human when needed.',
-    tech: ['JavaScript (ES modules)', 'HTML', 'CSS', 'Automated tests', 'GitHub Pages'],
-    role: 'Design of the conversation flows, language detection and intent matching logic, the three translations, tests and deployment.',
-    accent: 'chat',
-    demo: 'https://eliotilazi.github.io/support-chatbot/',
-    code: 'https://github.com/eliotilazi/support-chatbot',
   },
   {
     title: '3D custom furniture configurator',
