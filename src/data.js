@@ -46,5 +46,6 @@ export const projects = [
 export const skills = ['HTML5', 'CSS3', 'JavaScript', 'React', 'three.js', 'Python', 'SQL', 'PostgreSQL', 'Git & GitHub', 'Cloudflare']
 
 export const education = [
+  { school: 'BSc (Honours) Computing and IT, The Open University (distance learning, in progress)', years: 'expected 2027' },
   { school: 'Compulsory schooling, Établissement secondaire de Nyon', years: '2004 – 2017' },
 ]
