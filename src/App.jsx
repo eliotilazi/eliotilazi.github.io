@@ -95,18 +95,6 @@ function SkillsMarquee() {
 function ProjectVisual({ accent }) {
   return (
     <div className={`visual ${accent}`} aria-hidden="true">
-      {accent === 'wood' && (
-        <div className="room">
-          <div className="floor" /><div className="box b-a" /><div className="box b-b" />
-        </div>
-      )}
-      {accent === 'route' && (
-        <svg viewBox="0 0 300 160">
-          <path className="road" d="M20 130 C 80 20, 140 160, 200 70 S 270 30, 285 25" />
-          <circle cx="20" cy="130" r="9" /><circle cx="200" cy="70" r="9" /><circle cx="285" cy="25" r="9" />
-          <rect className="truck" x="0" y="0" width="22" height="14" rx="3" />
-        </svg>
-      )}
       {accent === 'quote' && (
         <div className="quoteviz">
           <span className="ql"><i>Kitchen 4.2 m</i><b>CHF 3'150</b></span>
@@ -140,12 +128,6 @@ function ProjectVisual({ accent }) {
           <span className="ql"><i>Insurance Plus</i><b>CHF 38</b></span>
           <span className="ql tot"><i>Total incl. VAT</i><b>CHF 366</b></span>
           <span className="rv-btn">Confirm booking</span>
-        </div>
-      )}
-      {accent === 'web' && (
-        <div className="devices">
-          <div className="laptop"><i /><i /><i /><b /><b /><b /></div>
-          <div className="phone"><b /><b /></div>
         </div>
       )}
     </div>
