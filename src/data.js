@@ -21,6 +21,15 @@ export const about = [
 
 export const projects = [
   {
+    title: 'Quote calculator for custom furniture',
+    text: 'A live quote tool for a demo furniture workshop: kitchens, wardrobes, bedrooms, built-in units and terraces. The customer enters the dimensions and the finish level and gets an itemised estimate with installation, delivery and Swiss VAT, in French, Albanian or English.',
+    tech: ['JavaScript (ES modules)', 'HTML', 'CSS', 'Automated tests', 'GitHub Pages'],
+    role: 'Pricing model based on my work in custom furniture, the calculation engine, the three translations, tests and deployment.',
+    accent: 'quote',
+    demo: 'https://eliotilazi.github.io/quote-calculator/',
+    code: 'https://github.com/eliotilazi/quote-calculator',
+  },
+  {
     title: 'Multilingual customer support chatbot',
     text: 'A support assistant for a demo bike shop that answers customers in English, French and Albanian: opening hours, delivery, returns, repairs, payment and order tracking. It tolerates typos and hands the conversation to a human when needed.',
     tech: ['JavaScript (ES modules)', 'HTML', 'CSS', 'Automated tests', 'GitHub Pages'],

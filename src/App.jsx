@@ -107,6 +107,14 @@ function ProjectVisual({ accent }) {
           <rect className="truck" x="0" y="0" width="22" height="14" rx="3" />
         </svg>
       )}
+      {accent === 'quote' && (
+        <div className="quoteviz">
+          <span className="ql"><i>Kitchen 4.2 m</i><b>CHF 3'150</b></span>
+          <span className="ql"><i>Quartz worktop</i><b>CHF 1'890</b></span>
+          <span className="ql"><i>VAT 8.1 %</i><b>CHF 469</b></span>
+          <span className="ql tot"><i>Total</i><b>CHF 6'264</b></span>
+        </div>
+      )}
       {accent === 'chat' && (
         <div className="chatviz">
           <span className="bub bot">Hello! How can I help?</span>
